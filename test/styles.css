@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container div {
+    width: 200px;
+    height: 200px;
+    background: red;
+    border: solid 2px blue;
+    flex: 1 1 auto;
+}
